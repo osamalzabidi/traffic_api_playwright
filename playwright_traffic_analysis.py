@@ -651,7 +651,7 @@ async def cleaning_up_unimportant_elements(page: Page):
                 '#vasquette',
                 '.app-viewcard-strip',
                 '.scene-footer-container',
-                'XltNde'
+                '.XltNde'
             ];
             selectors.forEach(sel => {
                 const el = document.querySelector(sel);
