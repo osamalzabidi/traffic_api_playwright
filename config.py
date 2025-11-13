@@ -24,10 +24,10 @@ PROXY_USERNAME = os.getenv("PLAYWRIGHT_PROXY_USERNAME")
 PROXY_PASSWORD = os.getenv("PLAYWRIGHT_PROXY_PASSWORD")
 
 CONCURRENT_TABS = os.getenv(
-    "CONCURRENT_TABS", 10
+    "CONCURRENT_TABS", 5
 )  # Adjust based on your server capacity
 
-# # Configure in config.py
+# Configure logger
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
