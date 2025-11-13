@@ -193,7 +193,7 @@ async def process_single_location(
         save_to_static=save_to_static,
         request_base_url=base_url,
     )
-    return {"location": loc, "result": traffic_results}
+    return {"location": location, "result": traffic_results}
 
 
 # Global exception handler
@@ -284,13 +284,11 @@ async def process_locations(
                         continue
 
                     log = TrafficLog(
-                        lat=res["location"].get("lat"),
-                        lng=res["location"].get("lng"),
-                        storefront_direction=res["location"].get(
-                            "storefront_direction"
-                        ),
-                        day=res["location"].get("day"),
-                        time=res["location"].get("time"),
+                        lat=res["location"].lat,
+                        lng=res["location"].lng,
+                        storefront_direction=res["location"].storefront_direction,
+                        day=res["location"].day,
+                        time=res["location"].time,
                         result=res["result"],
                         job_id=response.request_id,
                     )
@@ -383,13 +381,11 @@ async def get_job(
                 db.add(job)
 
                 log = TrafficLog(
-                    lat=result["payload"].get("lat"),
-                    lng=result["payload"].get("lng"),
-                    storefront_direction=result["storefront_direction"].get(
-                        "storefront_direction"
-                    ),
-                    day=result["payload"].get("day"),
-                    time=result["payload"].get("time"),
+                    lat=result["location"].lat,
+                    lng=result["location"].lng,
+                    storefront_direction=result["location"].storefront_direction,
+                    day=result["location"].day,
+                    time=result["location"].time,
                     result=result["result"],
                     job_id=response.request_id,
                 )
