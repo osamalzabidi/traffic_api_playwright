@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-import json
 import logging
 import os
 
@@ -24,28 +23,9 @@ PROXY_BYPASS = os.getenv("PLAYWRIGHT_PROXY_BYPASS")
 PROXY_USERNAME = os.getenv("PLAYWRIGHT_PROXY_USERNAME")
 PROXY_PASSWORD = os.getenv("PLAYWRIGHT_PROXY_PASSWORD")
 
-# logging
-# logging.basicConfig(
-#     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-# )
-# logger = logging.getLogger("traffic_api")
 
-
-class JSONFormatter(logging.Formatter):
-    def format(self, record):
-        log_entry = {
-            "timestamp": self.formatTime(record),
-            "level": record.levelname,
-            "message": record.getMessage(),
-            "module": record.module,
-            "function": record.funcName,
-            "line": record.lineno,
-        }
-        return json.dumps(log_entry)
-
-
-# Configure in config.py
-LOG_LEVEL = "INFO"
-logging.basicConfig(level=LOG_LEVEL, format="%(message)s")
+# # Configure in config.py
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger("traffic_api")
-logger.handlers[0].setFormatter(JSONFormatter())
