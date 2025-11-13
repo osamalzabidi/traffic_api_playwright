@@ -5,6 +5,7 @@
 import asyncio
 import os
 import uuid
+from asyncio import Semaphore
 from contextlib import asynccontextmanager
 from datetime import timedelta
 from typing import Any
@@ -43,6 +44,8 @@ from models import (
 )
 from models_db import Job, TrafficLog, User
 from playwright_traffic_analysis import (
+    TRAFFIC_SCREENSHOTS_PATH,
+    TRAFFIC_SCREENSHOTS_STATIC_PATH,
     analyze_location_traffic,
     setup_context_with_cookies,
 )
@@ -53,6 +56,9 @@ limiter = Limiter(key_func=get_remote_address)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    os.makedirs(TRAFFIC_SCREENSHOTS_PATH, exist_ok=True)
+    os.makedirs(TRAFFIC_SCREENSHOTS_STATIC_PATH, exist_ok=True)
+
     # Create database tables
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
@@ -179,6 +185,18 @@ app.add_exception_handler(
 os.makedirs("static/images/traffic_screenshots", exist_ok=True)
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
+# Add semaphore to control concurrent browser tabs
+CONCURRENT_TABS = 5  # Adjust based on your server capacity
+
+
+async def process_single_location_with_semaphore(
+    semaphore, browser_context, location, base_url, save_to_static
+):
+    async with semaphore:
+        return await process_single_location(
+            browser_context, location, base_url, save_to_static
+        )
+
 
 async def process_single_location(
     browser_context, location: LocationData, base_url: str, save_to_static: bool = False
@@ -245,15 +263,31 @@ async def process_locations(
         raise HTTPException(status_code=503, detail="Browser Context not available")
 
     try:
+        # results = await asyncio.gather(
+        #     *(
+        #         process_single_location(
+        #             browser_context, location, request.base_url, payload.save_to_static
+        #         )
+        #         for location in payload.locations
+        #     ),
+        #     return_exceptions=True,
+        # )
+
+        semaphore = Semaphore(CONCURRENT_TABS)
         results = await asyncio.gather(
             *(
-                process_single_location(
-                    browser_context, location, request.base_url, payload.save_to_static
+                process_single_location_with_semaphore(
+                    semaphore,
+                    browser_context,
+                    location,
+                    request.base_url,
+                    payload.save_to_static,
                 )
                 for location in payload.locations
             ),
             return_exceptions=True,
         )
+
         completed_result = [
             r.get("result") for r in results if not isinstance(r, Exception)
         ]
