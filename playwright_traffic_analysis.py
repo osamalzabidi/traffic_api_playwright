@@ -661,18 +661,22 @@ async def capture_google_maps_screenshot(
 
         # Select traffic type (typical or live)
         # await page.wait_for_timeout(sec(5))
-        # try:
-        #     if day_of_week is not None or target_time is not None:
-        #         if await select_typical_mode(page):
-        #             if day_of_week is not None:
-        #                 await select_typical_mode_day(page, day_of_week)
-        #                 await page.wait_for_timeout(sec(1))
-        #             if target_time is not None:
-        #                 await select_typical_mode_time(page, target_time)
-        #                 await page.wait_for_timeout(sec(1))
-        #             live_traffic = False
-        # except Exception as traffic_error:
-        #     logger.info(f"Using live traffic mode: {traffic_error}")
+        try:
+            if day_of_week is not None or target_time is not None:
+                if await select_typical_mode(page):
+                    await page.wait_for_timeout(sec(10))
+
+                    if day_of_week is not None:
+                        await select_typical_mode_day(page, day_of_week)
+                        await page.wait_for_timeout(sec(10))
+
+                    if target_time is not None:
+                        await select_typical_mode_time(page, target_time)
+                        await page.wait_for_timeout(sec(10))
+
+                    live_traffic = False
+        except Exception as traffic_error:
+            logger.info(f"Using live traffic mode: {traffic_error}")
 
         # Position mouse in the center of the map first
         await page.mouse.move(
