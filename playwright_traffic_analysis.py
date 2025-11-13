@@ -647,10 +647,11 @@ async def cleaning_up_unimportant_elements(page: Page):
             // Remove only the most obstructive elements
             const selectors = [
                 '#assistive-chips',
-                '#omnibox-container', 
+                '#omnibox-container',
                 '#vasquette',
                 '.app-viewcard-strip',
-                '.scene-footer-container'
+                '.scene-footer-container',
+                'XltNde'
             ];
             selectors.forEach(sel => {
                 const el = document.querySelector(sel);
