@@ -656,7 +656,7 @@ async def capture_google_maps_screenshot(
         page = await context.new_page()
 
         map_url = google_map_url(lat, lng)
-        await page.goto(map_url, wait_until="domcontentloaded")  # timeout=sec(10)
+        await page.goto(map_url, wait_until="domcontentloaded", timeout=sec(10))
         logger.info(f"Loading Google Maps URL: {map_url}")
 
         # Select traffic type (typical or live)
