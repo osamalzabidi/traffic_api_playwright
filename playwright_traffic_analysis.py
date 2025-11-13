@@ -1,6 +1,7 @@
-import asyncio
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
-# import logging
+
 import math
 import os
 import re
@@ -12,11 +13,7 @@ from urllib.parse import urljoin
 
 import numpy as np
 from PIL import Image
-from playwright.async_api import (  # Playwright,; async_playwright,
-    BrowserContext,
-    Page,
-    ViewportSize,
-)
+from playwright.async_api import BrowserContext, Page, ViewportSize
 
 from config import logger
 
@@ -576,8 +573,9 @@ async def select_typical_mode_day(page: Page, day_of_week: str):
             """
         )
         # await page.wait_for_timeout(sec(1))
+        logger.info("Successfully selection day for Typical mode")
     except Exception as err:
-        logger.info(f"Failed to select the traffic day of week: {err}")
+        logger.warning(f"Failed to select the traffic day of week: {err}")
 
 
 async def select_typical_mode_time(page: Page, target_time: str):
@@ -614,9 +612,9 @@ async def select_typical_mode_time(page: Page, target_time: str):
         await page.mouse.click(target_x, track_box["y"] + track_box["height"] / 2)
 
         # await page.wait_for_timeout(sec(1))
-
+        logger.info("Successfully selection time for Typical mode")
     except Exception as err:
-        logger.info(f"Failed to adjust the traffic time slider: {err}")
+        logger.warning(f"Failed to adjust the traffic time: {err}")
 
 
 async def cleaning_up_unimportant_elements(page: Page):
@@ -632,7 +630,7 @@ async def cleaning_up_unimportant_elements(page: Page):
                 document.querySelector("#content-container > div.app-viewcard-strip.ZiieLd > div.app-bottom-content-anchor.HdXONd > div.app-horizontal-widget-holder.Hk4XGb"),
                 document.querySelector("#content-container > div.scene-footer-container.Hk4XGb"),
                 document.querySelector("#minimap > div > div"),
-                document.getElementById('layer') // to remove (traffic type selection dialog)
+                // document.getElementById('layer') // to remove (traffic type selection dialog)
             ];
             elementsToRemove.forEach(el => {
                 if (el) el.remove();
@@ -658,7 +656,7 @@ async def capture_google_maps_screenshot(
         page = await context.new_page()
 
         map_url = google_map_url(lat, lng)
-        await page.goto(map_url, wait_until="domcontentloaded")  # timeout=sec(10)
+        await page.goto(map_url)  # timeout=sec(10), wait_until="domcontentloaded"
         logger.info(f"Loading Google Maps URL: {map_url}")
 
         # Select traffic type (typical or live)
@@ -752,28 +750,34 @@ async def analyze_location_traffic(
         ):
             os.remove(screenshot_path)
 
-        # Handle static file saving
+        # Handle static file saving if requested
         if save_to_static:
             static_filename = os.path.basename(pinned_screenshot_path)
             static_path = os.path.join(TRAFFIC_SCREENSHOTS_STATIC_PATH, static_filename)
 
             shutil.copy2(pinned_screenshot_path, static_path)
             result["screenshot_path"] = static_path
+
+            # Generate screenshot URL if base_url is provided
+            if request_base_url:
+                try:
+                    # Convert to string to handle URL objects
+                    base_url_str = str(request_base_url).rstrip("/")
+
+                    static_root = os.path.dirname(
+                        os.path.dirname(TRAFFIC_SCREENSHOTS_STATIC_PATH)
+                    )
+                    rel_path = os.path.relpath(static_path, static_root)
+                    screenshot_url = (
+                        f"{base_url_str}/static/{rel_path.replace(os.sep, '/')}"
+                    )
+
+                    result["screenshot_url"] = screenshot_url
+                    logger.info(f"Generated screenshot URL: {screenshot_url}")
+                except Exception as e:
+                    logger.warning(f"Failed to generate screenshot URL: {e}")
         else:
             result["screenshot_path"] = pinned_screenshot_path
-
-        if request_base_url:
-            try:
-                rel = os.path.relpath(
-                    result["screenshot_path"], os.path.abspath("static")
-                )
-                screenshot_url = urljoin(
-                    request_base_url,
-                    f"static/{rel.replace(os.sep, '/')}",
-                )
-                result["screenshot_url"] = screenshot_url
-            except Exception as e:
-                logger.warning(f"Failed to generate screenshot URL: {e}")
 
         # Add metadata
         result.update(
@@ -845,48 +849,3 @@ async def setup_context_with_cookies(browser: BrowserContext) -> BrowserContext:
         await setup_page.close()
 
     return context
-
-
-# async def run(playwright: Playwright) -> None:
-#     browser = await playwright.chromium.launch(
-#         headless=True,
-#         chromium_sandbox=False,
-#         # proxy
-#     )
-
-#     # First time - setup cookies and save them
-#     context = await setup_context_with_cookies(browser)
-
-#     # Save screenshots in local traffic_screenshots folder
-#     os.makedirs(TRAFFIC_SCREENSHOTS_PATH, exist_ok=True)
-#     os.makedirs(TRAFFIC_SCREENSHOTS_STATIC_PATH, exist_ok=True)
-
-#     await asyncio.gather(
-#         *[
-#             # analyze_location_traffic(
-#             #     context,
-#             #     loc.get("lat"),
-#             #     loc.get("lng"),
-#             #     loc.get("day"),
-#             #     loc.get("time"),
-#             #     loc.get("storefront_direction", "north"),
-#             #     save_to_static=True,
-#             # )
-#             capture_google_maps_screenshot(
-#                 context, loc.get("lat"), loc.get("lng"), loc.get("day"), loc.get("time")
-#             )
-#             for loc in RIYADH_LOCATIONS[:1]
-#         ]
-#     )
-
-#     # ---------------------
-#     await context.close()
-#     await browser.close()
-
-
-# async def main():
-#     async with async_playwright() as playwright:
-#         await run(playwright)
-
-
-# asyncio.run(main())
