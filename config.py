@@ -18,10 +18,10 @@ DB_FILE = os.getenv("SQLITE_DB_FILE", "traffic.db")
 DB_URL = f"sqlite+aiosqlite:///{DB_FILE}"  # f"sqlite:///{DB_FILE}"
 
 # Proxy Settings
-PROXY_SERVER = os.getenv("TRAFFIC_PROXY_SERVER")
-PROXY_BYPASS = os.getenv("TRAFFIC_PROXY_BYPASS")
-PROXY_USERNAME = os.getenv("TRAFFIC_PROXY_USERNAME")
-PROXY_PASSWORD = os.getenv("TRAFFIC_PROXY_PASSWORD")
+PROXY_SERVER = os.getenv("PLAYWRIGHT_PROXY_SERVER")
+PROXY_BYPASS = os.getenv("PLAYWRIGHT_PROXY_BYPASS")
+PROXY_USERNAME = os.getenv("PLAYWRIGHT_PROXY_USERNAME")
+PROXY_PASSWORD = os.getenv("PLAYWRIGHT_PROXY_PASSWORD")
 
 # logging
 logging.basicConfig(
