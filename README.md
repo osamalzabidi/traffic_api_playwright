@@ -70,7 +70,9 @@ The application consists of several key components:
     JWT_SECRET=your-secret-key
     ADMIN_PASSWORD=admin123
     RATE_LIMIT=10/minute
-    PLAYWRIGHT_PROXY=your-proxy-server
+    PLAYWRIGHT_PROXY_SERVER=your-proxy-server
+    PLAYWRIGHT_PROXY_USERNAME=your-proxy-username
+    PLAYWRIGHT_PROXY_PASSWORD=your-proxy-password
     ```
 
 ## API Documentation
@@ -144,9 +146,9 @@ Liveness probe for Kubernetes/container orchestration. Simple check to verify th
 The API uses JWT authentication. First, obtain a token:
 
 ```bash
-curl -X POST "http://localhost:8000/token" \
+curl -X POST "http://localhost:8000/login" \
   -H "Content-Type: application/x-www-form-urlencoded" \
-  -d "username=admin&password=admin123"
+  -d "username=admin&password=123456"
 ```
 
 ### Traffic Analysis Endpoints
@@ -156,4 +158,42 @@ curl -X POST "http://localhost:8000/token" \
 curl -X POST "http://localhost:8000/process-location" \
   -H "Authorization: Bearer YOUR_TOKEN" \
   -H "Content-Type: application/json" \
+  -d '{
+    "save_to_static": false,
+    "save_to_db": false,
+    "location": {
+      "lat": 24.7136,
+      "lng": 46.6753,
+      "storefront_direction": "north",
+      "day": "Monday",
+      "time": "10PM"
+    }'
+  }
+```
+
+**Multiple Locations Analysis**
+```bash
+curl -X POST "http://localhost:8000/process-locations" \
+  -H "Authorization: Bearer YOUR_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "save_to_static": true,
+    "save_to_db": true,
+    "locations": [
+      {
+        "lat": 24.7136,
+        "lng": 46.6753,
+        "storefront_direction": "north",
+        "day": "Monday",
+        "time": "10PM"
+      },
+      {
+        "lat": 24.7236,
+        "lng": 46.6853,
+        "storefront_direction": "south",
+        "day": "Tuesday",
+        "time": "8:30AM"
+      }
+    ]
+  }'
 ```
