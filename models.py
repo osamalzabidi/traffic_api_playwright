@@ -25,6 +25,7 @@ class LocationData(BaseModel):
     time: Optional[str] = Field(
         default=None, description="Time in format like 10PM, 8:30AM"
     )
+    zoom: Optional[int] = Field(default=18, description="Map URL Zoom value")
 
 
 class LocationRequest(BaseModel):
