@@ -1,0 +1,702 @@
+[
+  {
+    "lat": 24.7136,
+    "lng": 46.6753,
+    "storefront_direction": "north",
+    "day": "Monday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.7614,
+    "lng": 46.7225,
+    "storefront_direction": "south",
+    "day": "Tuesday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7889,
+    "lng": 46.7248,
+    "storefront_direction": "east",
+    "day": "Wednesday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7462,
+    "lng": 46.6788,
+    "storefront_direction": "west",
+    "day": "Thursday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6997,
+    "lng": 46.7241,
+    "storefront_direction": "northeast",
+    "day": "Friday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7684,
+    "lng": 46.6912,
+    "storefront_direction": "southwest",
+    "day": "Saturday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7326,
+    "lng": 46.7073,
+    "storefront_direction": "northwest",
+    "day": "Sunday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.7523,
+    "lng": 46.6589,
+    "storefront_direction": "southeast",
+    "day": "Monday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7791,
+    "lng": 46.6397,
+    "storefront_direction": "north",
+    "day": "Tuesday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.6938,
+    "lng": 46.6842,
+    "storefront_direction": "south",
+    "day": "Wednesday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.8075,
+    "lng": 46.6531,
+    "storefront_direction": "east",
+    "day": "Thursday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7433,
+    "lng": 46.7456,
+    "storefront_direction": "west",
+    "day": "Friday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7219,
+    "lng": 46.6624,
+    "storefront_direction": "northeast",
+    "day": "Saturday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.7742,
+    "lng": 46.7158,
+    "storefront_direction": "southwest",
+    "day": "Sunday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6985,
+    "lng": 46.7039,
+    "storefront_direction": "northwest",
+    "day": "Monday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7638,
+    "lng": 46.6667,
+    "storefront_direction": "southeast",
+    "day": "Tuesday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.7284,
+    "lng": 46.6918,
+    "storefront_direction": "north",
+    "day": "Wednesday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7921,
+    "lng": 46.6983,
+    "storefront_direction": "south",
+    "day": "Thursday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7092,
+    "lng": 46.7152,
+    "storefront_direction": "east",
+    "day": "Friday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.7567,
+    "lng": 46.7034,
+    "storefront_direction": "west",
+    "day": "Saturday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6348,
+    "lng": 46.7123,
+    "storefront_direction": "northeast",
+    "day": "Sunday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.6821,
+    "lng": 46.6345,
+    "storefront_direction": "southwest",
+    "day": "Monday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.7194,
+    "lng": 46.7589,
+    "storefront_direction": "northwest",
+    "day": "Tuesday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6517,
+    "lng": 46.6892,
+    "storefront_direction": "southeast",
+    "day": "Wednesday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7736,
+    "lng": 46.6214,
+    "storefront_direction": "north",
+    "day": "Thursday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6942,
+    "lng": 46.7428,
+    "storefront_direction": "south",
+    "day": "Friday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6289,
+    "lng": 46.6583,
+    "storefront_direction": "east",
+    "day": "Saturday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.8123,
+    "lng": 46.7036,
+    "storefront_direction": "west",
+    "day": "Sunday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6678,
+    "lng": 46.7734,
+    "storefront_direction": "northeast",
+    "day": "Monday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7412,
+    "lng": 46.6147,
+    "storefront_direction": "southwest",
+    "day": "Tuesday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7034,
+    "lng": 46.7921,
+    "storefront_direction": "northwest",
+    "day": "Wednesday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6589,
+    "lng": 46.6034,
+    "storefront_direction": "southeast",
+    "day": "Thursday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7926,
+    "lng": 46.6678,
+    "storefront_direction": "north",
+    "day": "Friday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.6234,
+    "lng": 46.7289,
+    "storefront_direction": "south",
+    "day": "Saturday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.7783,
+    "lng": 46.5834,
+    "storefront_direction": "east",
+    "day": "Sunday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6421,
+    "lng": 46.8034,
+    "storefront_direction": "west",
+    "day": "Monday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.8134,
+    "lng": 46.6345,
+    "storefront_direction": "northeast",
+    "day": "Tuesday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6834,
+    "lng": 46.5923,
+    "storefront_direction": "southwest",
+    "day": "Wednesday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7534,
+    "lng": 46.8123,
+    "storefront_direction": "northwest",
+    "day": "Thursday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.6123,
+    "lng": 46.6734,
+    "storefront_direction": "southeast",
+    "day": "Friday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.7989,
+    "lng": 46.7234,
+    "storefront_direction": "north",
+    "day": "Saturday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6634,
+    "lng": 46.5634,
+    "storefront_direction": "south",
+    "day": "Sunday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7234,
+    "lng": 46.8234,
+    "storefront_direction": "east",
+    "day": "Monday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6034,
+    "lng": 46.6434,
+    "storefront_direction": "west",
+    "day": "Tuesday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7834,
+    "lng": 46.5934,
+    "storefront_direction": "northeast",
+    "day": "Wednesday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.6534,
+    "lng": 46.7834,
+    "storefront_direction": "southwest",
+    "day": "Thursday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.8134,
+    "lng": 46.6634,
+    "storefront_direction": "northwest",
+    "day": "Friday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6734,
+    "lng": 46.6134,
+    "storefront_direction": "southeast",
+    "day": "Saturday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7434,
+    "lng": 46.7934,
+    "storefront_direction": "north",
+    "day": "Sunday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6234,
+    "lng": 46.7034,
+    "storefront_direction": "south",
+    "day": "Monday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7934,
+    "lng": 46.5734,
+    "storefront_direction": "east",
+    "day": "Tuesday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.6634,
+    "lng": 46.7634,
+    "storefront_direction": "west",
+    "day": "Wednesday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.8034,
+    "lng": 46.6934,
+    "storefront_direction": "northeast",
+    "day": "Thursday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6434,
+    "lng": 46.6234,
+    "storefront_direction": "southwest",
+    "day": "Friday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7534,
+    "lng": 46.8034,
+    "storefront_direction": "northwest",
+    "day": "Saturday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6134,
+    "lng": 46.6834,
+    "storefront_direction": "southeast",
+    "day": "Sunday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7734,
+    "lng": 46.5834,
+    "storefront_direction": "north",
+    "day": "Monday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.6734,
+    "lng": 46.7434,
+    "storefront_direction": "south",
+    "day": "Tuesday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.8134,
+    "lng": 46.6534,
+    "storefront_direction": "east",
+    "day": "Wednesday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6334,
+    "lng": 46.6334,
+    "storefront_direction": "west",
+    "day": "Thursday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7634,
+    "lng": 46.8134,
+    "storefront_direction": "northeast",
+    "day": "Friday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6034,
+    "lng": 46.6834,
+    "storefront_direction": "southwest",
+    "day": "Saturday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7834,
+    "lng": 46.5934,
+    "storefront_direction": "northwest",
+    "day": "Sunday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.6534,
+    "lng": 46.7234,
+    "storefront_direction": "southeast",
+    "day": "Monday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.7934,
+    "lng": 46.6734,
+    "storefront_direction": "north",
+    "day": "Tuesday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6234,
+    "lng": 46.6134,
+    "storefront_direction": "south",
+    "day": "Wednesday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7434,
+    "lng": 46.7834,
+    "storefront_direction": "east",
+    "day": "Thursday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6134,
+    "lng": 46.6934,
+    "storefront_direction": "west",
+    "day": "Friday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7734,
+    "lng": 46.6034,
+    "storefront_direction": "northeast",
+    "day": "Saturday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.6634,
+    "lng": 46.7334,
+    "storefront_direction": "southwest",
+    "day": "Sunday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.8034,
+    "lng": 46.6434,
+    "storefront_direction": "northwest",
+    "day": "Monday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6334,
+    "lng": 46.6234,
+    "storefront_direction": "southeast",
+    "day": "Tuesday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7534,
+    "lng": 46.7934,
+    "storefront_direction": "north",
+    "day": "Wednesday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6234,
+    "lng": 46.7034,
+    "storefront_direction": "south",
+    "day": "Thursday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7834,
+    "lng": 46.5834,
+    "storefront_direction": "east",
+    "day": "Friday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.6734,
+    "lng": 46.7434,
+    "storefront_direction": "west",
+    "day": "Saturday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.8134,
+    "lng": 46.6534,
+    "storefront_direction": "northeast",
+    "day": "Sunday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6434,
+    "lng": 46.6334,
+    "storefront_direction": "southwest",
+    "day": "Monday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7634,
+    "lng": 46.8034,
+    "storefront_direction": "northwest",
+    "day": "Tuesday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6034,
+    "lng": 46.6834,
+    "storefront_direction": "southeast",
+    "day": "Wednesday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7934,
+    "lng": 46.5934,
+    "storefront_direction": "north",
+    "day": "Thursday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.6534,
+    "lng": 46.7234,
+    "storefront_direction": "south",
+    "day": "Friday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.8034,
+    "lng": 46.6734,
+    "storefront_direction": "east",
+    "day": "Saturday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6234,
+    "lng": 46.6134,
+    "storefront_direction": "west",
+    "day": "Sunday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7434,
+    "lng": 46.7834,
+    "storefront_direction": "northeast",
+    "day": "Monday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6134,
+    "lng": 46.6934,
+    "storefront_direction": "southwest",
+    "day": "Tuesday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7734,
+    "lng": 46.6034,
+    "storefront_direction": "northwest",
+    "day": "Wednesday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.6634,
+    "lng": 46.7334,
+    "storefront_direction": "southeast",
+    "day": "Thursday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.8134,
+    "lng": 46.6434,
+    "storefront_direction": "north",
+    "day": "Friday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6334,
+    "lng": 46.6234,
+    "storefront_direction": "south",
+    "day": "Saturday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7534,
+    "lng": 46.7934,
+    "storefront_direction": "east",
+    "day": "Sunday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6234,
+    "lng": 46.7034,
+    "storefront_direction": "west",
+    "day": "Monday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7834,
+    "lng": 46.5834,
+    "storefront_direction": "northeast",
+    "day": "Tuesday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.6734,
+    "lng": 46.7434,
+    "storefront_direction": "southwest",
+    "day": "Wednesday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.8134,
+    "lng": 46.6534,
+    "storefront_direction": "northwest",
+    "day": "Thursday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.6434,
+    "lng": 46.6334,
+    "storefront_direction": "southeast",
+    "day": "Friday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.7634,
+    "lng": 46.8034,
+    "storefront_direction": "north",
+    "day": "Saturday",
+    "time": "10PM"
+  },
+  {
+    "lat": 24.6034,
+    "lng": 46.6834,
+    "storefront_direction": "south",
+    "day": "Sunday",
+    "time": "6PM"
+  },
+  {
+    "lat": 24.7934,
+    "lng": 46.5934,
+    "storefront_direction": "east",
+    "day": "Monday",
+    "time": "8:30AM"
+  },
+  {
+    "lat": 24.6534,
+    "lng": 46.7234,
+    "storefront_direction": "west",
+    "day": "Tuesday",
+    "time": "10PM"
+  }
+]

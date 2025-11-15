@@ -1,0 +1,5650 @@
+{
+  "overall_status": "completed_successfully",
+  "total_locations": 100,
+  "total_batches": 5,
+  "batch_size": 20,
+  "start_time": "2025-11-14T23:30:22.053837",
+  "batches": [
+    {
+      "batch_number": 1,
+      "job_id": "2059f95745d2275a",
+      
+      "submitted_locations": 20,
+      "completed_locations": 20,
+      "result": {
+        "count": 20,
+        "locations": [
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158165
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7136_46.6753_Monday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7136,
+              "lng": 46.6753
+            },
+            "analysis_timestamp": 1763152414.714624,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7136_46.6753_Monday_10PM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158643,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 3160,
+              "gray": 155483
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17274,
+                "colors": {
+                  "gray": 16317,
+                  "green": 957
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51950,
+                  "green": 1066
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87216,
+                  "green": 1136
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7614_46.7225_Tuesday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7614,
+              "lng": 46.7225
+            },
+            "analysis_timestamp": 1763152349.8369439,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 37,
+              "score": 30
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7614_46.7225_Tuesday_6PM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158692,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 12122,
+              "gray": 146570
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17323,
+                "colors": {
+                  "gray": 15905,
+                  "green": 1418
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 47675,
+                  "green": 5341
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 82990,
+                  "green": 5362
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7889_46.7248_Wednesday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7889,
+              "lng": 46.7248
+            },
+            "analysis_timestamp": 1763152351.5312405,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 32,
+              "score": 30
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7889_46.7248_Wednesday_8-30AM_pinned.png"
+          },
+          {
+            "score": 55.86,
+            "storefront_score": 70,
+            "area_score": 54.29,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158831,
+            "color_distribution": {
+              "dark_red": 143,
+              "red": 215,
+              "yellow": 1680,
+              "green": 1750,
+              "gray": 155043
+            },
+            "area_details": {
+              "50m": {
+                "score": 59.263351749539595,
+                "pixels": 17462,
+                "colors": {
+                  "gray": 16376,
+                  "yellow": 420,
+                  "green": 452,
+                  "dark_red": 86,
+                  "red": 128
+                }
+              },
+              "100m": {
+                "score": 52.15449290593799,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51113,
+                  "yellow": 802,
+                  "green": 957,
+                  "dark_red": 57,
+                  "red": 87
+                }
+              },
+              "150m": {
+                "score": 52.907268170426065,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87554,
+                  "green": 341,
+                  "yellow": 457
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7462_46.6788_Thursday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7462,
+              "lng": 46.6788
+            },
+            "analysis_timestamp": 1763152421.9801233,
+            "storefront_details": {
+              "found": true,
+              "color": "yellow",
+              "distance": 22,
+              "score": 70
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7462_46.6788_Thursday_10PM_pinned.png"
+          },
+          {
+            "score": 28.17,
+            "storefront_score": 0,
+            "area_score": 31.3,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 444,
+              "red": 1016,
+              "yellow": 468,
+              "green": 0,
+              "gray": 156272
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16832
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 92.71784232365145,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86424,
+                  "dark_red": 444,
+                  "red": 1016,
+                  "yellow": 468
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6997_46.7241_Friday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6997,
+              "lng": 46.7241
+            },
+            "analysis_timestamp": 1763152420.5206225,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6997_46.7241_Friday_6PM_pinned.png"
+          },
+          {
+            "score": 34.33,
+            "storefront_score": 30,
+            "area_score": 34.81,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158781,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 192,
+              "yellow": 610,
+              "green": 7179,
+              "gray": 150800
+            },
+            "area_details": {
+              "50m": {
+                "score": 35.533596837944664,
+                "pixels": 17412,
+                "colors": {
+                  "gray": 15894,
+                  "yellow": 210,
+                  "green": 1308
+                }
+              },
+              "100m": {
+                "score": 34.55520139090119,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 49565,
+                  "green": 3058,
+                  "yellow": 393
+                }
+              },
+              "150m": {
+                "score": 34.5566257057456,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 85341,
+                  "green": 2812,
+                  "yellow": 7,
+                  "red": 192
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7684_46.6912_Saturday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7684,
+              "lng": 46.6912
+            },
+            "analysis_timestamp": 1763152384.1922889,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 26,
+              "score": 30
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7684_46.6912_Saturday_8-30AM_pinned.png"
+          },
+          {
+            "score": 27.0,
+            "storefront_score": 0,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158206,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 1382,
+              "gray": 156824
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16838,
+                "colors": {
+                  "gray": 16579,
+                  "green": 259
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52470,
+                  "green": 546
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87775,
+                  "green": 577
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7326_46.7073_Sunday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7326,
+              "lng": 46.7073
+            },
+            "analysis_timestamp": 1763152420.1077898,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7326_46.7073_Sunday_10PM_pinned.png"
+          },
+          {
+            "score": 36.38,
+            "storefront_score": 0,
+            "area_score": 40.42,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158193,
+            "color_distribution": {
+              "dark_red": 490,
+              "red": 877,
+              "yellow": 0,
+              "green": 2737,
+              "gray": 154089
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16825,
+                "colors": {
+                  "gray": 16825
+                }
+              },
+              "100m": {
+                "score": 58.78393665158371,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51248,
+                  "green": 1041,
+                  "dark_red": 259,
+                  "red": 468
+                }
+              },
+              "150m": {
+                "score": 49.178082191780824,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86016,
+                  "green": 1696,
+                  "dark_red": 231,
+                  "red": 409
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7523_46.6589_Monday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7523,
+              "lng": 46.6589
+            },
+            "analysis_timestamp": 1763152422.3090072,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7523_46.6589_Monday_6PM_pinned.png"
+          },
+          {
+            "score": 27.92,
+            "storefront_score": 0,
+            "area_score": 31.03,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 196,
+              "red": 0,
+              "yellow": 0,
+              "green": 1805,
+              "gray": 156164
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 49.679245283018865,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52486,
+                  "green": 381,
+                  "dark_red": 149
+                }
+              },
+              "150m": {
+                "score": 32.23657375934738,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86881,
+                  "green": 1424,
+                  "dark_red": 47
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7791_46.6397_Tuesday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7791,
+              "lng": 46.6397
+            },
+            "analysis_timestamp": 1763152410.4217498,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7791_46.6397_Tuesday_8-30AM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158894,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 4331,
+              "gray": 154563
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17525,
+                "colors": {
+                  "gray": 17323,
+                  "green": 202
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51624,
+                  "green": 1392
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 85616,
+                  "green": 2736
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6938_46.6842_Wednesday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6938,
+              "lng": 46.6842
+            },
+            "analysis_timestamp": 1763152410.8055758,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 16,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6938_46.6842_Wednesday_10PM_pinned.png"
+          },
+          {
+            "score": 20.07,
+            "storefront_score": 0,
+            "area_score": 22.3,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 485,
+              "gray": 157669
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52673,
+                  "green": 343
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88210,
+                  "green": 142
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.8075_46.6531_Thursday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.8075,
+              "lng": 46.6531
+            },
+            "analysis_timestamp": 1763152393.856028,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.8075_46.6531_Thursday_6PM_pinned.png"
+          },
+          {
+            "score": 21.28,
+            "storefront_score": 0,
+            "area_score": 23.64,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 657,
+              "green": 0,
+              "gray": 157508
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 70.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87695,
+                  "yellow": 657
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7433_46.7456_Friday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7433,
+              "lng": 46.7456
+            },
+            "analysis_timestamp": 1763152419.6907446,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7433_46.7456_Friday_8-30AM_pinned.png"
+          },
+          {
+            "score": 20.05,
+            "storefront_score": 0,
+            "area_score": 22.28,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 4896,
+              "gray": 153304
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16832
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 50652,
+                  "green": 2364
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 85820,
+                  "green": 2532
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7219_46.6624_Saturday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7219,
+              "lng": 46.6624
+            },
+            "analysis_timestamp": 1763152421.4085624,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7219_46.6624_Saturday_10PM_pinned.png"
+          },
+          {
+            "score": 36.15,
+            "storefront_score": 30,
+            "area_score": 36.83,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158346,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 728,
+              "green": 4618,
+              "gray": 153000
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16977,
+                "colors": {
+                  "gray": 16845,
+                  "green": 132
+                }
+              },
+              "100m": {
+                "score": 44.91372843210803,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51683,
+                  "green": 836,
+                  "yellow": 497
+                }
+              },
+              "150m": {
+                "score": 32.381443298969074,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 84472,
+                  "green": 3649,
+                  "yellow": 231
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7742_46.7158_Sunday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7742,
+              "lng": 46.7158
+            },
+            "analysis_timestamp": 1763152422.313499,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 63,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7742_46.7158_Sunday_6PM_pinned.png"
+          },
+          {
+            "score": 30.6,
+            "storefront_score": 30,
+            "area_score": 30.66,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158890,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 92,
+              "green": 4803,
+              "gray": 153995
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17521,
+                "colors": {
+                  "green": 1144,
+                  "gray": 16377
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51123,
+                  "green": 1893
+                }
+              },
+              "150m": {
+                "score": 31.981690899299945,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86495,
+                  "green": 1765,
+                  "yellow": 92
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6985_46.7039_Monday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6985,
+              "lng": 46.7039
+            },
+            "analysis_timestamp": 1763152387.9493663,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 18,
+              "score": 30
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6985_46.7039_Monday_8-30AM_pinned.png"
+          },
+          {
+            "score": 30.33,
+            "storefront_score": 30,
+            "area_score": 30.36,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158435,
+            "color_distribution": {
+              "dark_red": 12,
+              "red": 30,
+              "yellow": 0,
+              "green": 5793,
+              "gray": 152600
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17066,
+                "colors": {
+                  "gray": 16738,
+                  "green": 328
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 50228,
+                  "green": 2788
+                }
+              },
+              "150m": {
+                "score": 31.08167770419426,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 85634,
+                  "green": 2676,
+                  "dark_red": 12,
+                  "red": 30
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7638_46.6667_Tuesday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7638,
+              "lng": 46.6667
+            },
+            "analysis_timestamp": 1763152421.966592,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 55,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7638_46.6667_Tuesday_10PM_pinned.png"
+          },
+          {
+            "score": 37.27,
+            "storefront_score": 30,
+            "area_score": 38.08,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158968,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 1120,
+              "green": 2543,
+              "gray": 155305
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17599,
+                "colors": {
+                  "gray": 16808,
+                  "green": 791
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51995,
+                  "green": 1021
+                }
+              },
+              "150m": {
+                "score": 54.21621621621622,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86502,
+                  "yellow": 1120,
+                  "green": 730
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7284_46.6918_Wednesday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7284,
+              "lng": 46.6918
+            },
+            "analysis_timestamp": 1763152357.784751,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 10,
+              "score": 30
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7284_46.6918_Wednesday_6PM_pinned.png"
+          },
+          {
+            "score": 9.12,
+            "storefront_score": 0,
+            "area_score": 10.13,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 312,
+              "gray": 157842
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88040,
+                  "green": 312
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7921_46.6983_Thursday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7921,
+              "lng": 46.6983
+            },
+            "analysis_timestamp": 1763152398.325404,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7921_46.6983_Thursday_8-30AM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158154
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7092_46.7152_Friday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7092,
+              "lng": 46.7152
+            },
+            "analysis_timestamp": 1763152417.09631,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7092_46.7152_Friday_10PM_pinned.png"
+          },
+          {
+            "score": 20.06,
+            "storefront_score": 0,
+            "area_score": 22.29,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 464,
+              "gray": 157701
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52923,
+                  "green": 93
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87981,
+                  "green": 371
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7567_46.7034_Saturday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7567,
+              "lng": 46.7034
+            },
+            "analysis_timestamp": 1763152421.380575,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7567_46.7034_Saturday_6PM_pinned.png"
+          }
+        ]
+      },
+      "processing_time": 207.451885
+    },
+    {
+      "batch_number": 2,
+      "job_id": "5db92e98f10a5414",
+      
+      "submitted_locations": 20,
+      "completed_locations": 20,
+      "result": {
+        "count": 20,
+        "locations": [
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158200
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16832
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6348_46.7123_Sunday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6348,
+              "lng": 46.7123
+            },
+            "analysis_timestamp": 1763152628.8874385,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6348_46.7123_Sunday_8-30AM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158240,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 1852,
+              "gray": 156388
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16871,
+                "colors": {
+                  "gray": 16794,
+                  "green": 77
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52037,
+                  "green": 979
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87557,
+                  "green": 795
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6821_46.6345_Monday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6821,
+              "lng": 46.6345
+            },
+            "analysis_timestamp": 1763152627.8557699,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 71,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6821_46.6345_Monday_10PM_pinned.png"
+          },
+          {
+            "score": 54.45,
+            "storefront_score": 30,
+            "area_score": 57.17,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158695,
+            "color_distribution": {
+              "dark_red": 304,
+              "red": 1898,
+              "yellow": 204,
+              "green": 2664,
+              "gray": 153625
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17326,
+                "colors": {
+                  "green": 755,
+                  "gray": 16571
+                }
+              },
+              "100m": {
+                "score": 69.9753086419753,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 50181,
+                  "red": 1398,
+                  "green": 1216,
+                  "dark_red": 221
+                }
+              },
+              "150m": {
+                "score": 63.11020960108181,
+                "pixels": 88352,
+                "colors": {
+                  "red": 500,
+                  "gray": 86873,
+                  "dark_red": 83,
+                  "yellow": 204,
+                  "green": 692
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7194_46.7589_Tuesday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7194,
+              "lng": 46.7589
+            },
+            "analysis_timestamp": 1763152623.9777315,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 34,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7194_46.7589_Tuesday_6PM_pinned.png"
+          },
+          {
+            "score": 43.09,
+            "storefront_score": 30,
+            "area_score": 44.54,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158980,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 2476,
+              "green": 4074,
+              "gray": 152430
+            },
+            "area_details": {
+              "50m": {
+                "score": 43.58490566037736,
+                "pixels": 17611,
+                "colors": {
+                  "gray": 16286,
+                  "green": 875,
+                  "yellow": 450
+                }
+              },
+              "100m": {
+                "score": 43.333333333333336,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51123,
+                  "yellow": 631,
+                  "green": 1262
+                }
+              },
+              "150m": {
+                "score": 46.75172620834584,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 85021,
+                  "yellow": 1395,
+                  "green": 1936
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6517_46.6892_Wednesday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6517,
+              "lng": 46.6892
+            },
+            "analysis_timestamp": 1763152610.5392423,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 10,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6517_46.6892_Wednesday_8-30AM_pinned.png"
+          },
+          {
+            "score": 33.69,
+            "storefront_score": 0,
+            "area_score": 37.44,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 402,
+              "green": 558,
+              "gray": 157205
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 54.5945945945946,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52868,
+                  "yellow": 91,
+                  "green": 57
+                }
+              },
+              "150m": {
+                "score": 45.320197044334975,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87540,
+                  "yellow": 311,
+                  "green": 501
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7736_46.6214_Thursday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7736,
+              "lng": 46.6214
+            },
+            "analysis_timestamp": 1763152513.471232,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7736_46.6214_Thursday_10PM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158154
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6942_46.7428_Friday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6942,
+              "lng": 46.7428
+            },
+            "analysis_timestamp": 1763152613.628323,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6942_46.7428_Friday_6PM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158154
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6289_46.6583_Saturday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6289,
+              "lng": 46.6583
+            },
+            "analysis_timestamp": 1763152620.7336776,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6289_46.6583_Saturday_8-30AM_pinned.png"
+          },
+          {
+            "score": 30.89,
+            "storefront_score": 0,
+            "area_score": 34.33,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 245,
+              "yellow": 0,
+              "green": 1907,
+              "gray": 156013
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 59.20863309352518,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52460,
+                  "red": 232,
+                  "green": 324
+                }
+              },
+              "150m": {
+                "score": 30.57017543859649,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86756,
+                  "green": 1583,
+                  "red": 13
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.8123_46.7036_Sunday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.8123,
+              "lng": 46.7036
+            },
+            "analysis_timestamp": 1763152620.5464213,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.8123_46.7036_Sunday_10PM_pinned.png"
+          },
+          {
+            "score": 20.05,
+            "storefront_score": 0,
+            "area_score": 22.28,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 1130,
+              "gray": 157070
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16832
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52768,
+                  "green": 248
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87470,
+                  "green": 882
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6678_46.7734_Monday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6678,
+              "lng": 46.7734
+            },
+            "analysis_timestamp": 1763152626.3921754,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6678_46.7734_Monday_6PM_pinned.png"
+          },
+          {
+            "score": 20.05,
+            "storefront_score": 0,
+            "area_score": 22.28,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 782,
+              "gray": 157418
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16832
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52613,
+                  "green": 403
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87973,
+                  "green": 379
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7412_46.6147_Tuesday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7412,
+              "lng": 46.6147
+            },
+            "analysis_timestamp": 1763152624.244993,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7412_46.6147_Tuesday_8-30AM_pinned.png"
+          },
+          {
+            "score": 20.05,
+            "storefront_score": 0,
+            "area_score": 22.28,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158206,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 2095,
+              "gray": 156111
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16838,
+                "colors": {
+                  "gray": 16838
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51848,
+                  "green": 1168
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87425,
+                  "green": 927
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7034_46.7921_Wednesday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7034,
+              "lng": 46.7921
+            },
+            "analysis_timestamp": 1763152500.610271,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7034_46.7921_Wednesday_10PM_pinned.png"
+          },
+          {
+            "score": 45.28,
+            "storefront_score": 70,
+            "area_score": 42.53,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158659,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 745,
+              "green": 1787,
+              "gray": 156127
+            },
+            "area_details": {
+              "50m": {
+                "score": 50.12779552715655,
+                "pixels": 17290,
+                "colors": {
+                  "gray": 16664,
+                  "yellow": 315,
+                  "green": 311
+                }
+              },
+              "100m": {
+                "score": 45.729847494553375,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52098,
+                  "green": 557,
+                  "yellow": 361
+                }
+              },
+              "150m": {
+                "score": 32.75582573454914,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87365,
+                  "green": 919,
+                  "yellow": 68
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6589_46.6034_Thursday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6589,
+              "lng": 46.6034
+            },
+            "analysis_timestamp": 1763152616.82614,
+            "storefront_details": {
+              "found": true,
+              "color": "yellow",
+              "distance": 37,
+              "score": 70
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6589_46.6034_Thursday_6PM_pinned.png"
+          },
+          {
+            "score": 9.12,
+            "storefront_score": 0,
+            "area_score": 10.13,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 298,
+              "gray": 157867
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88054,
+                  "green": 298
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7926_46.6678_Friday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7926,
+              "lng": 46.6678
+            },
+            "analysis_timestamp": 1763152540.6296613,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7926_46.6678_Friday_8-30AM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158154
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6234_46.7289_Saturday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6234,
+              "lng": 46.7289
+            },
+            "analysis_timestamp": 1763152627.8167675,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6234_46.7289_Saturday_10PM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158988,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 5728,
+              "gray": 153260
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17619,
+                "colors": {
+                  "gray": 16643,
+                  "green": 976
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51425,
+                  "green": 1591
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 85192,
+                  "green": 3160
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7783_46.5834_Sunday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7783,
+              "lng": 46.5834
+            },
+            "analysis_timestamp": 1763152623.7230055,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 9,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7783_46.5834_Sunday_6PM_pinned.png"
+          },
+          {
+            "score": 27.0,
+            "storefront_score": 0,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 4431,
+              "gray": 153734
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16630,
+                  "green": 167
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51724,
+                  "green": 1292
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 85380,
+                  "green": 2972
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6421_46.8034_Monday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6421,
+              "lng": 46.8034
+            },
+            "analysis_timestamp": 1763152627.7750587,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6421_46.8034_Monday_8-30AM_pinned.png"
+          },
+          {
+            "score": 27.0,
+            "storefront_score": 0,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 5390,
+              "gray": 152810
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 15897,
+                  "green": 935
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 50637,
+                  "green": 2379
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86276,
+                  "green": 2076
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.8134_46.6345_Tuesday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.8134,
+              "lng": 46.6345
+            },
+            "analysis_timestamp": 1763152628.8911529,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.8134_46.6345_Tuesday_10PM_pinned.png"
+          },
+          {
+            "score": 20.05,
+            "storefront_score": 0,
+            "area_score": 22.28,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 1117,
+              "gray": 157083
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16832
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51977,
+                  "green": 1039
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88274,
+                  "green": 78
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6834_46.5923_Wednesday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6834,
+              "lng": 46.5923
+            },
+            "analysis_timestamp": 1763152617.7808368,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6834_46.5923_Wednesday_6PM_pinned.png"
+          },
+          {
+            "score": 31.14,
+            "storefront_score": 30,
+            "area_score": 31.27,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158348,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 238,
+              "green": 5527,
+              "gray": 152583
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16979,
+                "colors": {
+                  "gray": 16795,
+                  "green": 184
+                }
+              },
+              "100m": {
+                "score": 30.76847932269619,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 49945,
+                  "green": 3012,
+                  "yellow": 59
+                }
+              },
+              "150m": {
+                "score": 32.85372658429653,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 85843,
+                  "green": 2330,
+                  "yellow": 179
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7534_46.8123_Thursday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7534,
+              "lng": 46.8123
+            },
+            "analysis_timestamp": 1763152628.8891196,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 62,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7534_46.8123_Thursday_8-30AM_pinned.png"
+          },
+          {
+            "score": 20.06,
+            "storefront_score": 0,
+            "area_score": 22.28,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158193,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 1009,
+              "gray": 157184
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16825,
+                "colors": {
+                  "gray": 16825
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52958,
+                  "green": 58
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87401,
+                  "green": 951
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6123_46.6734_Friday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6123,
+              "lng": 46.6734
+            },
+            "analysis_timestamp": 1763152628.4597912,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6123_46.6734_Friday_10PM_pinned.png"
+          }
+        ]
+      },
+      "processing_time": 413.044358
+    },
+    {
+      "batch_number": 3,
+      "job_id": "ecaa1952c73c1b03",
+      
+      "submitted_locations": 20,
+      "completed_locations": 20,
+      "result": {
+        "count": 20,
+        "locations": [
+          {
+            "score": 9.12,
+            "storefront_score": 0,
+            "area_score": 10.13,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 1799,
+              "gray": 156366
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86553,
+                  "green": 1799
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7989_46.7234_Saturday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7989,
+              "lng": 46.7234
+            },
+            "analysis_timestamp": 1763152814.588311,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7989_46.7234_Saturday_6PM_pinned.png"
+          },
+          {
+            "score": 70.0,
+            "storefront_score": 70,
+            "area_score": 70.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158727,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 2217,
+              "green": 0,
+              "gray": 156510
+            },
+            "area_details": {
+              "50m": {
+                "score": 70.0,
+                "pixels": 17358,
+                "colors": {
+                  "gray": 16821,
+                  "yellow": 537
+                }
+              },
+              "100m": {
+                "score": 70.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52151,
+                  "yellow": 865
+                }
+              },
+              "150m": {
+                "score": 70.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87538,
+                  "yellow": 814
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6634_46.5634_Sunday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6634,
+              "lng": 46.5634
+            },
+            "analysis_timestamp": 1763152825.784848,
+            "storefront_details": {
+              "found": true,
+              "color": "yellow",
+              "distance": 30,
+              "score": 70
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6634_46.5634_Sunday_8-30AM_pinned.png"
+          },
+          {
+            "score": 20.91,
+            "storefront_score": 0,
+            "area_score": 23.24,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 22,
+              "red": 42,
+              "yellow": 0,
+              "green": 2458,
+              "gray": 155632
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52107,
+                  "green": 909
+                }
+              },
+              "150m": {
+                "score": 32.77743335399876,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86739,
+                  "green": 1549,
+                  "dark_red": 22,
+                  "red": 42
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7234_46.8234_Monday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7234,
+              "lng": 46.8234
+            },
+            "analysis_timestamp": 1763152828.599444,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7234_46.8234_Monday_10PM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158165
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6034_46.6434_Tuesday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6034,
+              "lng": 46.6434
+            },
+            "analysis_timestamp": 1763152828.6550784,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6034_46.6434_Tuesday_6PM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158529,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 6812,
+              "gray": 151717
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17160,
+                "colors": {
+                  "gray": 16823,
+                  "green": 337
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51066,
+                  "green": 1950
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 83828,
+                  "green": 4524
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7834_46.5934_Wednesday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7834,
+              "lng": 46.5934
+            },
+            "analysis_timestamp": 1763152823.1646872,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 47,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7834_46.5934_Wednesday_8-30AM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158827,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 2764,
+              "gray": 156063
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17458,
+                "colors": {
+                  "gray": 16798,
+                  "green": 660
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51910,
+                  "green": 1106
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87355,
+                  "green": 997
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6534_46.7834_Thursday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6534,
+              "lng": 46.7834
+            },
+            "analysis_timestamp": 1763152821.7046108,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 23,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6534_46.7834_Thursday_10PM_pinned.png"
+          },
+          {
+            "score": 25.74,
+            "storefront_score": 0,
+            "area_score": 28.6,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158206,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 661,
+              "green": 2610,
+              "gray": 154935
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16838,
+                "colors": {
+                  "gray": 16838
+                }
+              },
+              "100m": {
+                "score": 39.55631399317406,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51844,
+                  "green": 892,
+                  "yellow": 280
+                }
+              },
+              "150m": {
+                "score": 37.26060028585041,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86253,
+                  "green": 1718,
+                  "yellow": 381
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.8134_46.6634_Friday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.8134,
+              "lng": 46.6634
+            },
+            "analysis_timestamp": 1763152827.9971805,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.8134_46.6634_Friday_6PM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158193,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158193
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16825,
+                "colors": {
+                  "gray": 16825
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6734_46.6134_Saturday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6734,
+              "lng": 46.6134
+            },
+            "analysis_timestamp": 1763152812.8776183,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6734_46.6134_Saturday_8-30AM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158989,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 1388,
+              "gray": 157601
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17620,
+                "colors": {
+                  "gray": 16700,
+                  "green": 920
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52685,
+                  "green": 331
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88216,
+                  "green": 136
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7434_46.7934_Sunday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7434,
+              "lng": 46.7934
+            },
+            "analysis_timestamp": 1763152827.411618,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 9,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7434_46.7934_Sunday_10PM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158154
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6234_46.7034_Monday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6234,
+              "lng": 46.7034
+            },
+            "analysis_timestamp": 1763152828.191639,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6234_46.7034_Monday_6PM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158216,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 1683,
+              "gray": 156533
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16847,
+                "colors": {
+                  "gray": 16333,
+                  "green": 514
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52357,
+                  "green": 659
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87843,
+                  "green": 509
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7934_46.5734_Tuesday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7934,
+              "lng": 46.5734
+            },
+            "analysis_timestamp": 1763152823.9709496,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 71,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7934_46.5734_Tuesday_8-30AM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158165
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6634_46.7634_Wednesday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6634,
+              "lng": 46.7634
+            },
+            "analysis_timestamp": 1763152818.6046119,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6634_46.7634_Wednesday_10PM_pinned.png"
+          },
+          {
+            "score": 21.11,
+            "storefront_score": 0,
+            "area_score": 23.45,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 222,
+              "red": 360,
+              "yellow": 0,
+              "green": 450,
+              "gray": 157168
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16832
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 69.47674418604652,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87320,
+                  "red": 360,
+                  "dark_red": 222,
+                  "green": 450
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.8034_46.6934_Thursday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.8034,
+              "lng": 46.6934
+            },
+            "analysis_timestamp": 1763152826.2270463,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.8034_46.6934_Thursday_6PM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158200
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16832
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6434_46.6234_Friday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6434,
+              "lng": 46.6234
+            },
+            "analysis_timestamp": 1763152820.7848186,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6434_46.6234_Friday_8-30AM_pinned.png"
+          },
+          {
+            "score": 9.11,
+            "storefront_score": 0,
+            "area_score": 10.13,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158206,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 1737,
+              "gray": 156469
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16838,
+                "colors": {
+                  "gray": 16838
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86615,
+                  "green": 1737
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7534_46.8034_Saturday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7534,
+              "lng": 46.8034
+            },
+            "analysis_timestamp": 1763152715.6330824,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7534_46.8034_Saturday_10PM_pinned.png"
+          },
+          {
+            "score": 49.41,
+            "storefront_score": 0,
+            "area_score": 54.9,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158193,
+            "color_distribution": {
+              "dark_red": 357,
+              "red": 907,
+              "yellow": 2627,
+              "green": 1912,
+              "gray": 152390
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16825,
+                "colors": {
+                  "gray": 16803,
+                  "green": 22
+                }
+              },
+              "100m": {
+                "score": 65.36601096420509,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 49915,
+                  "dark_red": 233,
+                  "red": 588,
+                  "green": 975,
+                  "yellow": 1305
+                }
+              },
+              "150m": {
+                "score": 61.30223880597015,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 85672,
+                  "dark_red": 124,
+                  "red": 319,
+                  "green": 915,
+                  "yellow": 1322
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6134_46.6834_Sunday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6134,
+              "lng": 46.6834
+            },
+            "analysis_timestamp": 1763152753.586238,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6134_46.6834_Sunday_6PM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158945,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 4010,
+              "gray": 154935
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17576,
+                "colors": {
+                  "gray": 16897,
+                  "green": 679
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51623,
+                  "green": 1393
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86415,
+                  "green": 1937
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7734_46.5834_Monday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7734,
+              "lng": 46.5834
+            },
+            "analysis_timestamp": 1763152829.2615545,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 13,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7734_46.5834_Monday_8-30AM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158239,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 3041,
+              "gray": 155198
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16870,
+                "colors": {
+                  "gray": 16695,
+                  "green": 175
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51302,
+                  "green": 1714
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87201,
+                  "green": 1151
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6734_46.7434_Tuesday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6734,
+              "lng": 46.7434
+            },
+            "analysis_timestamp": 1763152721.3439617,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 69,
+              "score": 30
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6734_46.7434_Tuesday_10PM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158967,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 4959,
+              "gray": 154008
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17598,
+                "colors": {
+                  "gray": 16979,
+                  "green": 619
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "green": 1394,
+                  "gray": 51622
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 85407,
+                  "green": 2945
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.8134_46.6534_Wednesday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.8134,
+              "lng": 46.6534
+            },
+            "analysis_timestamp": 1763152823.425429,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 10,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.8134_46.6534_Wednesday_6PM_pinned.png"
+          },
+          {
+            "score": 20.06,
+            "storefront_score": 0,
+            "area_score": 22.29,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 2432,
+              "gray": 155733
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52425,
+                  "green": 591
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86511,
+                  "green": 1841
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6334_46.6334_Thursday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6334,
+              "lng": 46.6334
+            },
+            "analysis_timestamp": 1763152824.6031625,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6334_46.6334_Thursday_8-30AM_pinned.png"
+          }
+        ]
+      },
+      "processing_time": 609.106503
+    },
+    {
+      "batch_number": 4,
+      "job_id": "3cd2db2f9264d21a",
+      
+      "submitted_locations": 20,
+      "completed_locations": 20,
+      "result": {
+        "count": 20,
+        "locations": [
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158200
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16832
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7634_46.8134_Friday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7634,
+              "lng": 46.8134
+            },
+            "analysis_timestamp": 1763152966.5658321,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7634_46.8134_Friday_10PM_pinned.png"
+          },
+          {
+            "score": 20.05,
+            "storefront_score": 0,
+            "area_score": 22.28,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 928,
+              "gray": 157272
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16832
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52850,
+                  "green": 166
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87590,
+                  "green": 762
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6034_46.6834_Saturday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6034,
+              "lng": 46.6834
+            },
+            "analysis_timestamp": 1763152976.9833086,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6034_46.6834_Saturday_6PM_pinned.png"
+          },
+          {
+            "score": 25.19,
+            "storefront_score": 0,
+            "area_score": 27.99,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158206,
+            "color_distribution": {
+              "dark_red": 208,
+              "red": 366,
+              "yellow": 0,
+              "green": 5632,
+              "gray": 152000
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16838,
+                "colors": {
+                  "gray": 16838
+                }
+              },
+              "100m": {
+                "score": 39.951716738197426,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51152,
+                  "dark_red": 96,
+                  "red": 169,
+                  "green": 1599
+                }
+              },
+              "150m": {
+                "score": 34.981575310916625,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 84010,
+                  "dark_red": 112,
+                  "red": 197,
+                  "green": 4033
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7834_46.5934_Sunday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7834,
+              "lng": 46.5934
+            },
+            "analysis_timestamp": 1763153019.1847427,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7834_46.5934_Sunday_8-30AM_pinned.png"
+          },
+          {
+            "score": 31.04,
+            "storefront_score": 0,
+            "area_score": 34.49,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158193,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 1858,
+              "green": 1913,
+              "gray": 154422
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16825,
+                "colors": {
+                  "gray": 16825
+                }
+              },
+              "100m": {
+                "score": 43.142857142857146,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52666,
+                  "yellow": 115,
+                  "green": 235
+                }
+              },
+              "150m": {
+                "score": 50.38000584624379,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 84931,
+                  "yellow": 1743,
+                  "green": 1678
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6534_46.7234_Monday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6534,
+              "lng": 46.7234
+            },
+            "analysis_timestamp": 1763153019.1965225,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6534_46.7234_Monday_10PM_pinned.png"
+          },
+          {
+            "score": 34.01,
+            "storefront_score": 30,
+            "area_score": 34.46,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158989,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 603,
+              "green": 4659,
+              "gray": 153727
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17620,
+                "colors": {
+                  "gray": 16486,
+                  "green": 1134
+                }
+              },
+              "100m": {
+                "score": 34.530386740331494,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 50482,
+                  "green": 2247,
+                  "yellow": 287
+                }
+              },
+              "150m": {
+                "score": 37.93471437539234,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86759,
+                  "green": 1277,
+                  "yellow": 316
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7934_46.6734_Tuesday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7934,
+              "lng": 46.6734
+            },
+            "analysis_timestamp": 1763153019.1942363,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 9,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7934_46.6734_Tuesday_6PM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158154
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6234_46.6134_Wednesday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6234,
+              "lng": 46.6134
+            },
+            "analysis_timestamp": 1763153012.7527156,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6234_46.6134_Wednesday_8-30AM_pinned.png"
+          },
+          {
+            "score": 27.0,
+            "storefront_score": 0,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 2265,
+              "gray": 155889
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16437,
+                  "green": 349
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "green": 1070,
+                  "gray": 51946
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87506,
+                  "green": 846
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7434_46.7834_Thursday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7434,
+              "lng": 46.7834
+            },
+            "analysis_timestamp": 1763153012.8592896,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7434_46.7834_Thursday_10PM_pinned.png"
+          },
+          {
+            "score": 27.0,
+            "storefront_score": 0,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 5443,
+              "gray": 152722
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16003,
+                  "green": 794
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 50271,
+                  "green": 2745
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86448,
+                  "green": 1904
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6134_46.6934_Friday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6134,
+              "lng": 46.6934
+            },
+            "analysis_timestamp": 1763153013.1651692,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6134_46.6934_Friday_6PM_pinned.png"
+          },
+          {
+            "score": 27.0,
+            "storefront_score": 0,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 1411,
+              "gray": 156789
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16468,
+                  "green": 364
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52449,
+                  "green": 567
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87872,
+                  "green": 480
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7734_46.6034_Saturday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7734,
+              "lng": 46.6034
+            },
+            "analysis_timestamp": 1763153003.721352,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7734_46.6034_Saturday_8-30AM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158353,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 3273,
+              "gray": 155080
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16984,
+                "colors": {
+                  "gray": 16025,
+                  "green": 959
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51764,
+                  "green": 1252
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87291,
+                  "green": 1061
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6634_46.7334_Sunday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6634,
+              "lng": 46.7334
+            },
+            "analysis_timestamp": 1763152987.421685,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 62,
+              "score": 30
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6634_46.7334_Sunday_10PM_pinned.png"
+          },
+          {
+            "score": 27.0,
+            "storefront_score": 0,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158206,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 598,
+              "gray": 157608
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16838,
+                "colors": {
+                  "gray": 16597,
+                  "green": 241
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52827,
+                  "green": 189
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88184,
+                  "green": 168
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.8034_46.6434_Monday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.8034,
+              "lng": 46.6434
+            },
+            "analysis_timestamp": 1763152970.2493644,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.8034_46.6434_Monday_6PM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158193,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158193
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16825,
+                "colors": {
+                  "gray": 16825
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6334_46.6234_Tuesday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6334,
+              "lng": 46.6234
+            },
+            "analysis_timestamp": 1763153016.7397265,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6334_46.6234_Tuesday_8-30AM_pinned.png"
+          },
+          {
+            "score": 20.06,
+            "storefront_score": 0,
+            "area_score": 22.29,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 2205,
+              "gray": 155960
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52101,
+                  "green": 915
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87062,
+                  "green": 1290
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7534_46.7934_Wednesday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7534,
+              "lng": 46.7934
+            },
+            "analysis_timestamp": 1763152883.516203,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7534_46.7934_Wednesday_10PM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158154
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6234_46.7034_Thursday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6234,
+              "lng": 46.7034
+            },
+            "analysis_timestamp": 1763153019.1854558,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6234_46.7034_Thursday_6PM_pinned.png"
+          },
+          {
+            "score": 20.07,
+            "storefront_score": 0,
+            "area_score": 22.3,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 2289,
+              "gray": 155865
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52082,
+                  "green": 934
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86997,
+                  "green": 1355
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7834_46.5834_Friday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7834,
+              "lng": 46.5834
+            },
+            "analysis_timestamp": 1763153019.1905477,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7834_46.5834_Friday_8-30AM_pinned.png"
+          },
+          {
+            "score": 27.0,
+            "storefront_score": 0,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 2959,
+              "gray": 155206
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16621,
+                  "green": 176
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51350,
+                  "green": 1666
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87235,
+                  "green": 1117
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6734_46.7434_Saturday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6734,
+              "lng": 46.7434
+            },
+            "analysis_timestamp": 1763152988.197078,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6734_46.7434_Saturday_10PM_pinned.png"
+          },
+          {
+            "score": 20.05,
+            "storefront_score": 0,
+            "area_score": 22.28,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 1332,
+              "gray": 156868
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16832
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "green": 442,
+                  "gray": 52574
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87462,
+                  "green": 890
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.8134_46.6534_Sunday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.8134,
+              "lng": 46.6534
+            },
+            "analysis_timestamp": 1763153019.1912754,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.8134_46.6534_Sunday_6PM_pinned.png"
+          },
+          {
+            "score": 66.08,
+            "storefront_score": 70,
+            "area_score": 65.65,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158474,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 4040,
+              "green": 516,
+              "gray": 153918
+            },
+            "area_details": {
+              "50m": {
+                "score": 70.0,
+                "pixels": 17105,
+                "colors": {
+                  "gray": 16097,
+                  "yellow": 1008
+                }
+              },
+              "100m": {
+                "score": 69.30434782608695,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51061,
+                  "yellow": 1921,
+                  "green": 34
+                }
+              },
+              "150m": {
+                "score": 57.88944723618091,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86760,
+                  "yellow": 1110,
+                  "green": 482
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6434_46.6334_Monday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6434,
+              "lng": 46.6334
+            },
+            "analysis_timestamp": 1763153018.0976682,
+            "storefront_details": {
+              "found": true,
+              "color": "yellow",
+              "distance": 52,
+              "score": 70
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6434_46.6334_Monday_8-30AM_pinned.png"
+          },
+          {
+            "score": 14.28,
+            "storefront_score": 0,
+            "area_score": 15.86,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158206,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 467,
+              "green": 632,
+              "gray": 157107
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16838,
+                "colors": {
+                  "gray": 16838
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 46.99727024567789,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87253,
+                  "yellow": 467,
+                  "green": 632
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7634_46.8034_Tuesday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7634,
+              "lng": 46.8034
+            },
+            "analysis_timestamp": 1763152997.0819175,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7634_46.8034_Tuesday_10PM_pinned.png"
+          },
+          {
+            "score": 20.06,
+            "storefront_score": 0,
+            "area_score": 22.28,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158193,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 928,
+              "gray": 157265
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16825,
+                "colors": {
+                  "gray": 16825
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52850,
+                  "green": 166
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87590,
+                  "green": 762
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6034_46.6834_Wednesday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6034,
+              "lng": 46.6834
+            },
+            "analysis_timestamp": 1763152991.9730263,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6034_46.6834_Wednesday_6PM_pinned.png"
+          }
+        ]
+      },
+      "processing_time": 808.079412
+    },
+    {
+      "batch_number": 5,
+      "job_id": "9701a31b30a583eb",
+      
+      "submitted_locations": 20,
+      "completed_locations": 20,
+      "result": {
+        "count": 20,
+        "locations": [
+          {
+            "score": 27.0,
+            "storefront_score": 0,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 2804,
+              "gray": 155361
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 15967,
+                  "green": 830
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52022,
+                  "green": 994
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87372,
+                  "green": 980
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7934_46.5934_Thursday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7934,
+              "lng": 46.5934
+            },
+            "analysis_timestamp": 1763153211.797546,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7934_46.5934_Thursday_8-30AM_pinned.png"
+          },
+          {
+            "score": 31.06,
+            "storefront_score": 0,
+            "area_score": 34.51,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 1858,
+              "green": 1912,
+              "gray": 154384
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 43.142857142857146,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52666,
+                  "yellow": 115,
+                  "green": 235
+                }
+              },
+              "150m": {
+                "score": 50.3859649122807,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 84932,
+                  "yellow": 1743,
+                  "green": 1677
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6534_46.7234_Friday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6534,
+              "lng": 46.7234
+            },
+            "analysis_timestamp": 1763153212.7299938,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6534_46.7234_Friday_10PM_pinned.png"
+          },
+          {
+            "score": 35.98,
+            "storefront_score": 0,
+            "area_score": 39.97,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 500,
+              "green": 1730,
+              "gray": 155924
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 67.79310344827586,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52871,
+                  "yellow": 137,
+                  "green": 8
+                }
+              },
+              "150m": {
+                "score": 36.96402877697842,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86267,
+                  "green": 1722,
+                  "yellow": 363
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.8034_46.6734_Saturday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.8034,
+              "lng": 46.6734
+            },
+            "analysis_timestamp": 1763153211.2528055,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.8034_46.6734_Saturday_6PM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158165
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6234_46.6134_Sunday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6234,
+              "lng": 46.6134
+            },
+            "analysis_timestamp": 1763153209.0772007,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6234_46.6134_Sunday_8-30AM_pinned.png"
+          },
+          {
+            "score": 9.11,
+            "storefront_score": 0,
+            "area_score": 10.13,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 473,
+              "gray": 157727
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16832
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87879,
+                  "green": 473
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7434_46.7834_Monday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7434,
+              "lng": 46.7834
+            },
+            "analysis_timestamp": 1763153164.7096336,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7434_46.7834_Monday_10PM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158203,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 2041,
+              "gray": 156162
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16834,
+                "colors": {
+                  "gray": 16549,
+                  "green": 285
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51939,
+                  "green": 1077
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87674,
+                  "green": 678
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6134_46.6934_Tuesday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6134,
+              "lng": 46.6934
+            },
+            "analysis_timestamp": 1763153183.0137856,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 75,
+              "score": 30
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6134_46.6934_Tuesday_6PM_pinned.png"
+          },
+          {
+            "score": 27.0,
+            "storefront_score": 0,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158206,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 1411,
+              "gray": 156795
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16838,
+                "colors": {
+                  "gray": 16474,
+                  "green": 364
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52449,
+                  "green": 567
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87872,
+                  "green": 480
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7734_46.6034_Wednesday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7734,
+              "lng": 46.6034
+            },
+            "analysis_timestamp": 1763153203.2117233,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7734_46.6034_Wednesday_8-30AM_pinned.png"
+          },
+          {
+            "score": 30.0,
+            "storefront_score": 30,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158959,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 3502,
+              "gray": 155457
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 17590,
+                "colors": {
+                  "gray": 16775,
+                  "green": 815
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51587,
+                  "green": 1429
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87095,
+                  "green": 1257
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6634_46.7334_Thursday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6634,
+              "lng": 46.7334
+            },
+            "analysis_timestamp": 1763153078.7441998,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 12,
+              "score": 30
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6634_46.7334_Thursday_10PM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158165
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.8134_46.6434_Friday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.8134,
+              "lng": 46.6434
+            },
+            "analysis_timestamp": 1763153214.662595,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.8134_46.6434_Friday_6PM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158154
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6334_46.6234_Saturday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6334,
+              "lng": 46.6234
+            },
+            "analysis_timestamp": 1763153208.367247,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6334_46.6234_Saturday_8-30AM_pinned.png"
+          },
+          {
+            "score": 29.97,
+            "storefront_score": 0,
+            "area_score": 33.3,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 844,
+              "green": 1608,
+              "gray": 155702
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 48.984962406015036,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51952,
+                  "yellow": 505,
+                  "green": 559
+                }
+              },
+              "150m": {
+                "score": 39.76945244956772,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86964,
+                  "green": 1049,
+                  "yellow": 339
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7534_46.7934_Sunday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7534,
+              "lng": 46.7934
+            },
+            "analysis_timestamp": 1763153097.670787,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7534_46.7934_Sunday_10PM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158165
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6234_46.7034_Monday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6234,
+              "lng": 46.7034
+            },
+            "analysis_timestamp": 1763153214.6555977,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6234_46.7034_Monday_6PM_pinned.png"
+          },
+          {
+            "score": 20.05,
+            "storefront_score": 0,
+            "area_score": 22.28,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 1429,
+              "gray": 156771
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16832
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 52341,
+                  "green": 675
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87598,
+                  "green": 754
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7834_46.5834_Tuesday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7834,
+              "lng": 46.5834
+            },
+            "analysis_timestamp": 1763153212.1711497,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7834_46.5834_Tuesday_8-30AM_pinned.png"
+          },
+          {
+            "score": 27.0,
+            "storefront_score": 0,
+            "area_score": 30.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158200,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 2959,
+              "gray": 155241
+            },
+            "area_details": {
+              "50m": {
+                "score": 30.0,
+                "pixels": 16832,
+                "colors": {
+                  "gray": 16656,
+                  "green": 176
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51350,
+                  "green": 1666
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87235,
+                  "green": 1117
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6734_46.7434_Wednesday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6734,
+              "lng": 46.7434
+            },
+            "analysis_timestamp": 1763153197.1516638,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6734_46.7434_Wednesday_10PM_pinned.png"
+          },
+          {
+            "score": 20.05,
+            "storefront_score": 0,
+            "area_score": 22.28,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158206,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 2126,
+              "gray": 156080
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16838,
+                "colors": {
+                  "gray": 16838
+                }
+              },
+              "100m": {
+                "score": 30.0,
+                "pixels": 53016,
+                "colors": {
+                  "green": 422,
+                  "gray": 52594
+                }
+              },
+              "150m": {
+                "score": 30.0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86648,
+                  "green": 1704
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.8134_46.6534_Thursday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.8134,
+              "lng": 46.6534
+            },
+            "analysis_timestamp": 1763153199.3729815,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.8134_46.6534_Thursday_6PM_pinned.png"
+          },
+          {
+            "score": 96.26,
+            "storefront_score": 100,
+            "area_score": 95.84,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158301,
+            "color_distribution": {
+              "dark_red": 1096,
+              "red": 2622,
+              "yellow": 664,
+              "green": 0,
+              "gray": 153919
+            },
+            "area_details": {
+              "50m": {
+                "score": 100.0,
+                "pixels": 16932,
+                "colors": {
+                  "gray": 15962,
+                  "dark_red": 303,
+                  "red": 667
+                }
+              },
+              "100m": {
+                "score": 99.26050420168067,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51231,
+                  "dark_red": 503,
+                  "red": 1238,
+                  "yellow": 44
+                }
+              },
+              "150m": {
+                "score": 88.56088560885608,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86726,
+                  "dark_red": 289,
+                  "red": 717,
+                  "yellow": 620
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6434_46.6334_Friday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6434,
+              "lng": 46.6334
+            },
+            "analysis_timestamp": 1763153213.6531634,
+            "storefront_details": {
+              "found": true,
+              "color": "dark_red",
+              "distance": 66,
+              "score": 100
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6434_46.6334_Friday_8-30AM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158165
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7634_46.8034_Saturday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7634,
+              "lng": 46.8034
+            },
+            "analysis_timestamp": 1763153198.1060112,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7634_46.8034_Saturday_10PM_pinned.png"
+          },
+          {
+            "score": 0.0,
+            "storefront_score": 0,
+            "area_score": 0.0,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158154,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 0,
+              "green": 0,
+              "gray": 158154
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16786,
+                "colors": {
+                  "gray": 16786
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 0,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 88352
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6034_46.6834_Sunday_6PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6034,
+              "lng": 46.6834
+            },
+            "analysis_timestamp": 1763153174.55732,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6034_46.6834_Sunday_6PM_pinned.png"
+          },
+          {
+            "score": 42.47,
+            "storefront_score": 30,
+            "area_score": 43.85,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158767,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 1017,
+              "green": 1921,
+              "gray": 155829
+            },
+            "area_details": {
+              "50m": {
+                "score": 47.27626459143969,
+                "pixels": 17398,
+                "colors": {
+                  "gray": 16627,
+                  "green": 438,
+                  "yellow": 333
+                }
+              },
+              "100m": {
+                "score": 42.541133455210236,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 51922,
+                  "green": 751,
+                  "yellow": 343
+                }
+              },
+              "150m": {
+                "score": 42.723880597014926,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 87280,
+                  "green": 731,
+                  "yellow": 341
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.7934_46.5934_Monday_8-30AM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.7934,
+              "lng": 46.5934
+            },
+            "analysis_timestamp": 1763153214.4305377,
+            "storefront_details": {
+              "found": true,
+              "color": "green",
+              "distance": 26,
+              "score": 30
+            },
+            "traffic_type": "typical",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.7934_46.5934_Monday_8-30AM_pinned.png"
+          },
+          {
+            "score": 13.28,
+            "storefront_score": 0,
+            "area_score": 14.75,
+            "storefront_weight": 0.1,
+            "area_weight": 0.9,
+            "total_pixels_analyzed": 158165,
+            "color_distribution": {
+              "dark_red": 0,
+              "red": 0,
+              "yellow": 544,
+              "green": 1047,
+              "gray": 156574
+            },
+            "area_details": {
+              "50m": {
+                "score": 0,
+                "pixels": 16797,
+                "colors": {
+                  "gray": 16797
+                }
+              },
+              "100m": {
+                "score": 0,
+                "pixels": 53016,
+                "colors": {
+                  "gray": 53016
+                }
+              },
+              "150m": {
+                "score": 43.67693274670019,
+                "pixels": 88352,
+                "colors": {
+                  "gray": 86761,
+                  "yellow": 544,
+                  "green": 1047
+                }
+              }
+            },
+            "screenshot_path": "/app/static/images/traffic_screenshots/traffic_24.6534_46.7234_Tuesday_10PM_pinned.png",
+            "method": "google_maps_screenshot",
+            "coordinates": {
+              "lat": 24.6534,
+              "lng": 46.7234
+            },
+            "analysis_timestamp": 1763153190.2408814,
+            "storefront_details": {
+              "found": false,
+              "color": "gray",
+              "distance": 75,
+              "score": 0
+            },
+            "traffic_type": "live",
+            "screenshot_url": "http://localhost:8000/static/images/traffic_screenshots/traffic_24.6534_46.7234_Tuesday_10PM_pinned.png"
+          }
+        ]
+      },
+      "processing_time": 1001.209989
+    }
+  ],
+  "end_time": "2025-11-14T23:47:03.263836",
+  "total_processing_time_seconds": 1001.209999,
+  "successful_batches": 5,
+  "failed_batches": 0,
+  "total_completed_locations": 100,
+  "completion_rate": "100.00%"
+}
