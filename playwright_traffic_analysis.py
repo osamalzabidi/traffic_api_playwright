@@ -648,13 +648,15 @@ async def capture_google_maps_screenshot(
                 page.viewport_size.get("width", 600) // 2,
                 page.viewport_size.get("height", 400) // 2,
             )
-            for i in range(3):
-                await page.mouse.wheel(0, 100 * (-1 if i == 0 else 1))
-                await page.wait_for_timeout(500)
+            await page.mouse.wheel(0, 100)
+            await page.wait_for_timeout(500)
+            # for i in range(3):
+            #     await page.mouse.wheel(0, 100 * (-1 if i == 0 else 1))
+            #     await page.wait_for_timeout(500)
 
         # Select traffic type (typical or live)
         with timer(f"Select Typical mode for {lat},{lng}"):
-            if day_of_week is not None or target_time is not None:
+            if day_of_week or target_time:
                 try:
                     if await select_typical_mode(page):
                         if day_of_week is not None:
